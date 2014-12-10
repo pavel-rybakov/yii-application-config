@@ -15,7 +15,7 @@ class Yii extends YiiBase {
     }
 
     /**
-     * @return MyWebApplication
+     * @return MyConsoleApplication
      */
     public static function createConsoleApplication($config = null, $env = null) {
         if (is_null($config)) $config = 'console';

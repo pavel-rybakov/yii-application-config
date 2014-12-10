@@ -1,6 +1,7 @@
 <?php
 
-class MyWebApplication extends CWebApplication {
+
+class MyConsoleApplication extends CConsoleApplication {
 
     private $_env;
 
